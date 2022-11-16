@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0-preview-20221003-04" />
+    <PackageReference Include="MSTest.TestAdapter" Version="3.0.0-preview-20221110-04" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.0.0-preview-20221110-04" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShapeLib\ShapeLib.csproj" />
+  </ItemGroup>
+
+</Project>
